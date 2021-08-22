@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CLASE18</title>
+    <link href="css/styles.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <section class="padre1">
+            <h5>Grandes ofertas en comederos</h5>
+            <nav class="nevaheader">
+                <form action="/idioma" method="get">
+                    <label></label>
+                    <select name="idioma">
+                        <option value="español">Español</option>
+                    </select>
+                </form>
+                <form action="/moneda" method="get">
+                    <label></label>
+                    <select name="moneda">
+                        <option value="arg">ARG$</option>
+                    </select>
+                </form>
+            </nav>
+        </section>
+            
+
+        <section class="padre2">
+            <div>
+                <img src="img/Logo.png" alt="logo">
+            </div>
+            <nav class="hijo2">
+                <span>Categorías</span>
+                <span>Nosotros</span>
+                <span>Pets</span>
+                <span>Contactanos</span>
+            </nav>
+        </section>
+
+    </header>
+
+    <main>
+
+        <section class="padre3">
+            <h3>¡Es un placer tenerte aquí!</h3>
+            <p>¡Comederos en descuento!</p>
+            <button type="button">COMEDERO</button>
+        </section>
+
+        <section class="padre4">
+            <img src="img/patita.png" alt="paw">
+            <h1>Productos destacados</h1>
+            <p>Comederos - Accesorios - Comidas</p>
+        </section>
+
+        <section class="padre5">
+            <article>
+                <img src="img/churrasquito.png" alt="churrasquito">
+                <p class="producto">Juguete churrasquito</p>
+                <p class="precio">$150</p>
+            </article>
+
+            <article>
+                <img src="img/comedero.png" alt="plato">
+                <p class="producto">Comedero para perro</p>
+                <p class="precio">$250</p>
+            </article>
+
+            <article>
+                <img src="img/Huesito.png" alt="huesitos">
+                <p class="producto">Juguete huesito</p>
+                <p class="precio">$650</p>
+            </article>
+        </section>
+
+        <section class="padre6">
+            <h4>Contáctanos</h4>
+            <form action="/contacto" method="post">
+                <label for="nombre"></label>
+                <input id="nombre" name="nombre" type="text" placeholder="Nombre y Apellido">
+                <label for="email"></label>
+                <input id="email" name="email" type="text" placeholder="Ingresá tu correo electrónico">
+                <label for="tel"></label>
+                <input id="tel" name="telefono" type="tel" placeholder="Teléfono">
+                <button class="reset" type="reset">Resetear</button>
+                <button class="submit" type="submit">Enviar</button>
+            </form>
+
+        </section>
+
+        <section class="padre7">
+            <div>
+                <img src="img/mail volador.png" alt="iconomail">
+                <h3>Suscríbete para más novedades</h3>
+            </div>
+            <form action="/suscripción" method="get">
+                <label for="mail"></label>
+                <input id="email" name="email" type="text" placeholder="Ingresá tu correo electrónico">
+                <button type="submit">Suscribirme</button>
+            </form>
+        </section>
+        
+        <section class="padre8">
+          <div>
+            <nav>
+                <img src="img/ubicacion.png" alt="icono localidad">
+                <img src="img/tel.png" alt="icono telefono">
+                <img src="img/correo.png" alt="icono correo">
+            </nav>
+            <article>
+                <h4>Localidad</h4>
+                <p>Calle-provincia</p>
+                <h4>Teléfono</h4>
+                <p>Número de teléfono</p>
+                <h4>Correo electrónico</h4>
+                <p>Dirección de correo</p>
+            </article>
+          </div> 
+            <img src="img/Logo front blanco.png" alt="logo cat">
+        </section>
+    </main>
+
+    <footer>Todos los derechos reservados Front End</footer>
+
+    
+</body>
+</html>

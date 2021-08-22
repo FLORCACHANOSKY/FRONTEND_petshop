@@ -1,0 +1,346 @@
+* {
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+}
+
+.padre1 {
+    display: flex;
+    flex-direction: row;
+    background-color: #222222;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 50px;
+    width: 1024px;
+    height: 20px;
+}
+
+.padre1 h5 {
+    font-family: 'Roboto', sans-serif;;
+    font-size: 10px;
+    font-weight: 400px; 
+}
+
+.nevaheader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.nevaheader form {
+    margin: 0px 15px;
+}
+
+.padre1 select {
+    border-style: none;
+    background-color: #222222;
+    color: white;
+    font-size: 10px;
+}
+
+.padre2 {
+    background-color:#F0A83E;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    width: 1024px;
+    height: 62px;
+}
+
+.hijo2 {
+    color: white; 
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+}
+
+span {
+    margin: 0px 15px;
+}
+
+span::before {
+    content: url('/Users/florcachanosky/Desktop/Flor/DH/B1/FRONTEND I/CLASE 18/img/patitablanca.png');
+    margin: 0px 8px;
+}
+
+.padre3 {
+    background-image: url('/Users/florcachanosky/Desktop/Flor/DH/B1/FRONTEND I/CLASE 18/img/platocomida.png'); 
+    background-size: cover;
+    width: 1024px;
+    height: 409px;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 50px;
+}
+
+.padre3 h3 {
+    background-color: #FFFFFF;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    padding: 5px;
+    font-weight: 100px;
+}
+
+.padre3 p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px; 
+    margin: 15px 18px;
+}
+
+.padre3 button {
+    background-color: #F0A83E;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: white;
+    padding: 10px 25px;
+    margin: 0px 40px;
+    border-style: none;
+}
+
+.padre4 {
+    width: 1024px;
+    height: 205px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 48px;
+}
+
+.padre4 h1 {
+    margin: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.padre4 p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 15px;
+    word-spacing: 10px;
+
+}
+
+.padre5 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 1024px;
+    padding: 48px;
+    
+}
+
+.padre5 article {
+    background-color: #FBFAF6;
+    margin: 5px;
+    height: 312px;
+    width: 264px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.producto {
+    color: #3C2313;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.precio {
+    color: #F0A83E;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.padre6 {
+    width: 1024px;
+    padding: 48px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.padre6 h4 {
+    color: #3C2313;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 29px;
+}
+
+.padre6 input {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 10px;
+    padding: 10px 25px;
+    background-color: #3C2313;
+    border-radius: 15px;
+    color: white;
+    font-size: 9px;
+    width: 340px;
+    height: 40px;
+}
+
+.reset {
+    background-color: #8A8787;
+    padding: 15px;
+    border-radius: 15px;
+    color: white;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    border-style: none;
+    width: 110px;
+    height: 34px;
+}
+
+.submit {
+    background-color:#F0A83E;
+    padding: 15px;
+    border-radius: 15px;
+    color: white;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    border-style: none;
+    width: 110px;
+    height: 34px;
+    margin: 25px;
+}
+
+.padre7 {
+    background-color: #F0A83E;
+    width: 1024px;
+    height: 60px;
+    padding: 0px 48px; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    
+}
+
+.padre7 div {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.padre7 div img {
+    margin: 5px 15px;
+}
+
+.padre7 h3 {
+    background-color: #F0A83E;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+
+}
+
+.padre7 form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+.padre7 input {
+    border: none;
+    border-radius: 15px;
+    padding: 15px 60px 15px 5px; 
+    font-size: 11px; 
+    font-family: 'Roboto', sans-serif;
+    color: #A0A0A0;
+    margin: 5px;
+    width: 271px;
+}
+
+.padre7 button {
+    border: none;
+    border-radius: 15px;
+    background-color: #3C2313; 
+    width: 70px;
+    height: 34px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px; 
+}
+
+.padre8 {
+    width: 1024px;
+    height: 284px;
+    background-color: #3C2313;
+    padding: 0px 48px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.padre8 div {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-around;
+    align-items: center; 
+}
+
+.padre8 nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.padre8 img {
+    margin: 5px;
+}
+
+.padre8 h4 {
+    color: white;
+    margin: 10px 25px; 
+    font-size: 20px; 
+    font-family: 'Roboto', sans-serif;
+}
+
+.padre8 p {
+    color: white;
+    margin: 5px 25px 10px 25px; 
+    font-size: 11px; 
+    font-family: 'Roboto', sans-serif;
+}
+
+
+footer {
+    background-color: #222222;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 1024px;
+    padding: 5px 48px; 
+
+}
